@@ -1,6 +1,7 @@
 # 为什么会有这个插件？
 
 ::: tip
+该文档假设你是熟悉 Rust 和 Tauri 的。开始阅读之前建议先浏览 [为什么选 Rust](https://www.rust-lang.org/) 和 [为什么是 Tauri](https://tauri.app/start/) 。
 :::
 
 在 真实项目 中，我们遇到了一些问题，因为 Linux 操作系统 上的 GUI 表现不太友好，可是我们又在一开始不得不使用 Electron 进行开发。在我们项目迭代中我们尝试使用 Tauri 进行迭代更新。
