@@ -87,3 +87,7 @@ textarea {
 .bg-info { background-color: var(--c-bg-info-1); }
 
 .rounded-6 { border-radius: 6px; }
+
+.VPSocialLinks.VPNavBarSocialLinks.social-links {
+  margin-right: 0;
+}

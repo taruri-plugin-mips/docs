@@ -4,7 +4,19 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   optimizeDeps: {
-    exclude: ['vitepress'],
+    exclude: [
+      '@nolebase/vitepress-plugin-enhanced-readabilities/client',
+      '@nolebase/vitepress-plugin-inline-link-preview/client',
+      'vitepress',
+      '@nolebase/ui',
+    ],
+  },
+  ssr: {
+    noExternal: [
+      '@nolebase/vitepress-plugin-enhanced-readabilities',
+      '@nolebase/vitepress-plugin-inline-link-preview',
+      '@nolebase/ui',
+    ],
   },
   plugins: [
     Components({
