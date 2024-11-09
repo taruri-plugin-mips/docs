@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { sidebar } from './sidebar.js'
+
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
 import {
   InlineLinkPreviewElementTransform
@@ -24,6 +25,7 @@ export default defineConfig({
       dark: 'vitesse-dark',
     },
   },
+
   themeConfig: {
     sidebar: sidebar(),
   },
