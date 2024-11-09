@@ -14,7 +14,7 @@ export function sidebar(): DefaultTheme.SidebarItem[] {
       items: [
         { text: 'Arm', link: '/os/arm' },
         { text: 'Amd64', link: '/os/amd64' },
-        { text: 'loongArch', link: '/os/amd64' },
+        { text: 'loongArch', link: '/os/loong-arch' },
         { text: 'mips', link: '/os/mips' },
 
       ],
