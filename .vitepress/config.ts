@@ -10,6 +10,7 @@ export default defineConfig({
   title: 'tauri-plugin-mips',
 
   srcDir: 'content',
+  outDir: './dist',
 
   markdown: {
     theme: {
