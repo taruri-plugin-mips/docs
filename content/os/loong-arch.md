@@ -168,3 +168,6 @@ pnpm add -D @tauri-apps/cli-linux-loong64-gnu
 }
 ```
 
+### 思路
+
+打造专属于 mips 架构的 wasm 运行时，让 tauri 可以在 mips 架构下编译。
