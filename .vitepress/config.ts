@@ -23,6 +23,7 @@ export default defineConfig({
     outline: {
       level: 'deep',
     },
+    logo: '/logo.png',
     sidebar: sidebar(),
     search: {
       provider: 'local',

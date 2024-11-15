@@ -122,7 +122,8 @@ sudo apt install libwebkit2gtk-4.0-dev \
 
 ### 设置多个npm仓库源
 
-```.npmrc
+```txt
+# .npmrc
 registry=https://registry.loongnix.cn:4873;https://registry.npmmirror.com
 ```
 
