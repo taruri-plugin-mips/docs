@@ -6,7 +6,7 @@ export function sidebar(): DefaultTheme.SidebarItem[] {
       text: '指南',
       items: [
         { text: '简介', link: '/guide/' },
-
+        { text: '主要功能', link: '/guide/features' },
       ],
     },
     {

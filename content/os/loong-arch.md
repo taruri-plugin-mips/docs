@@ -167,4 +167,3 @@ pnpm add -D @tauri-apps/cli-linux-loong64-gnu
   },
 }
 ```
-
