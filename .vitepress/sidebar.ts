@@ -13,8 +13,8 @@ export function sidebar(): DefaultTheme.SidebarItem[] {
     {
       text: 'CPU 架构',
       items: [
-        { text: 'Arm', link: '/os/arm' },
-        { text: 'Amd64', link: '/os/amd64' },
+        { text: 'ARM', link: '/os/arm' },
+        { text: 'AMD64', link: '/os/amd64' },
         { text: 'LoongArch', link: '/os/loong-arch' },
         { text: 'MIPS', link: '/os/mips' },
         { text: '高级功能', link: '/os/advanced' },
