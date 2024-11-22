@@ -7,6 +7,7 @@ export function sidebar(): DefaultTheme.SidebarItem[] {
       items: [
         { text: '简介', link: '/guide/' },
         { text: '主要功能', link: '/guide/features' },
+        { text: '快速起步', link: '/guide/getting-started' },
       ],
     },
     {
@@ -16,8 +17,8 @@ export function sidebar(): DefaultTheme.SidebarItem[] {
         { text: 'Amd64', link: '/os/amd64' },
         { text: 'LoongArch', link: '/os/loong-arch' },
         { text: 'mips', link: '/os/mips' },
-
+        { text: '高级功能', link: '/os/advanced' },
       ],
-    }
+    },
   ]
 }

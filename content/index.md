@@ -13,3 +13,18 @@
 :::
 
 更多文档即将推出...
+
+## 感谢
+
+- [稚晖君](https://github.com/peng-zhihui)
+- [Amr Bashir](https://github.com/amrbashir)
+- [Nate Butler](https://github.com/iamnbutler)
+- [DIYgod](https://github.com/DIYgod)
+- [LongYinan](https://github.com/Brooooooklyn)
+- [Herrington Darkholme](https://github.com/HerringtonDarkholme)
+- [Lucas Fernandes Nogueira](https://github.com/lucasfernog)
+- [狼叔](https://github.com/i5ting)
+- [Nathan Rajlich](https://github.com/TooTallNate)
+- [Xuan Huang (黄玄)](https://github.com/Huxpro)
+- [Yifeng Wang](https://github.com/doodlewind)
+- [Zeabur](https://github.com/zeabur)
