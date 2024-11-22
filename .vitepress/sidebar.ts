@@ -16,7 +16,7 @@ export function sidebar(): DefaultTheme.SidebarItem[] {
         { text: 'Arm', link: '/os/arm' },
         { text: 'Amd64', link: '/os/amd64' },
         { text: 'LoongArch', link: '/os/loong-arch' },
-        { text: 'mips', link: '/os/mips' },
+        { text: 'MIPS', link: '/os/mips' },
         { text: '高级功能', link: '/os/advanced' },
       ],
     },
