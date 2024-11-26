@@ -2,6 +2,8 @@
 
 ::: tip
 该文档假设你是熟悉 Rust 和 Tauri 的。开始阅读之前建议先浏览 [为什么选 Rust](https://www.rust-lang.org/) 和 [为什么是 Tauri](https://tauri.app/start/) 。
+
+> 只是想尝试一下？跳到[快速开始](./getting-started)。
 :::
 
 ## 让 Tauri 在国产的 Linux 操作系统上运行的必要性

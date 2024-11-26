@@ -10,9 +10,10 @@ MIPS 是非常困难的。我们可以用 一无所有 来形容。所以我们�
 
 ## 安装 node
 
-我们将会在这个社区中去维护一个 mips 架构下的 nodejs 预构建二进制文件。
+我们可以在 [龙芯的开源社区](https://www.loongnix.cn/zh/)中发现，他们维护过一段时间的 MIPS 架构下的 Node.js [预构建二进制文件](http://ftp.loongnix.cn/os/loongnix/20/mips64el/pool/main/n/nodejs/)。
+不过 他们 只提供到了 14.16.1。
+如果我们想采用一套代码多端编译的方式，在 Linux 的这些平台之下，MIPS就是我们的短板。
 
-如果你需要比较高版本的 nodejs，你可能需要研究一下如何在 mips 架构下手动编译 nodejs。
 
 ## 安装 rust
 

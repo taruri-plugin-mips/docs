@@ -12,6 +12,11 @@ export default defineConfig({
   srcDir: 'content',
   outDir: './dist',
 
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+  ],
+
   markdown: {
     theme: {
       light: 'vitesse-light',
