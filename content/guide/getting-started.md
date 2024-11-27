@@ -16,3 +16,5 @@ $ cd my-tauri-app
 # 安装依赖
 $ pnpm install
 ```
+
+更多文档即将推出...
