@@ -14,7 +14,9 @@
 
 例如我们在使用 electron 时，我们在 `npm install` 的时候会自动从 `github/electron` 的 [release](https://github.com/electron/electron/releases/tag/v33.2.0) 中下载对应的依赖，而在这里我们就将这个特殊的依赖包称为 运行时。
 
-而我们在使用 tauri 时，我们其实也有这一步。我们可以看到在 [@tauri-app/cli](https://github.com/tauri-apps/tauri/blob/dev/packages/cli) 的 [`packages.json`](https://github.com/tauri-apps/tauri/blob/dev/packages/cli/package.json#L26-L39) 中。这些会在我们安装 `@tauri-app/cli` 的时候自动下载对应 CPU 架构的依赖。
+而我们在使用 tauri 时，我们其实也有这一步。我们可以看到在 [@tauri-app/cli](https://github.com/tauri-apps/tauri/blob/dev/packages/cli) 的 [`packages.json`](https://github.com/tauri-apps/tauri/blob/dev/packages/cli/package.json#L26-L39) 中。
+
+这些会在我们安装的时候自动下载对应 CPU 架构的依赖我们在本文中称之为 `运行时` 。
 
 ## 插件的开发思路
 
