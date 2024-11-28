@@ -49,3 +49,17 @@
 >   },
 > }
 > ```
+
+## 出现例如 `version 'GLIBC_2.xx' not found` 的问题？
+
+> 核心库如 `glibc` 经常与旧系统的兼容性出现问题。因此，我们必须使用打算支持的最旧的基础系统来构建 `Tauri` 应用程序。相对较旧的系统，如 Ubuntu 18.04 ，比 Ubuntu 22.04 更适合，因为在 Ubuntu 22.04 上编译的二进制文件对 `glibc` 版本的要求更高，所以在旧系统上运行时，我们会遇到这个错误。
+>
+> 具体可以看这些链接：
+> - [tauri-apps/tauri#1355](https://github.com/tauri-apps/tauri/issues/1355)
+> - [rust-lang/rust#57497](https://github.com/rust-lang/rust/issues/57497)
+
+## 我们应该使用 `Node` 还是 `Cargo` ?
+
+> 如果我们正在开发，那么可以使用 `Node` 来进行预览和开发。
+>
+> 如果我们正在编译，那么可以使用 `Cargo` 来进行编译。

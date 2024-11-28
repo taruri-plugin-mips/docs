@@ -15,7 +15,7 @@ export function nav(): DefaultTheme.NavItem[] {
     {
       text: 'FAQ',
       link: '/faq',
-      activeMatch: '^/faq/',
+      activeMatch: '^/faq',
     },
     {
       text: 'CPU 架构',

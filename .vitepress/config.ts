@@ -25,6 +25,12 @@ export default defineConfig({
   },
 
   themeConfig: {
+    socialLinks: [
+      {
+        icon: 'github',
+        link: 'https://github.com/taruri-plugin-mips',
+      },
+    ],
     outline: {
       level: 'deep',
     },
